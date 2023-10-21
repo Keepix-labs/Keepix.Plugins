@@ -1,6 +1,6 @@
 [
    {
-      "id": "wasm.example",
+      "id": "plugin.example",
       "repositoryUrl": "https://github.com/Keepix-labs/Wasm.example",
       "title": "Example Plugin",
       "description": "A plugin of test."
