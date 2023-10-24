@@ -3,6 +3,12 @@
       "id": "plugin.example",
       "repositoryUrl": "https://github.com/Keepix-labs/Plugin.example",
       "title": "Example Plugin",
-      "description": "A plugin of test."
+      "description": "A plugin of test.",
+      "requires": {
+        "ports": [{
+          "in": 5000,
+          "out": 4500
+        }]
+      }
    }
 ]
