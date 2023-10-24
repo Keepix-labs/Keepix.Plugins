@@ -10,5 +10,17 @@
           "out": 4500
         }]
       }
+   },
+   {
+      "id": "Keepix.EvmPlugin",
+      "repositoryUrl": "https://github.com/Keepix-labs/Keepix.EvmPlugin",
+      "title": "Keepix Evm Plugin",
+      "description": "Evm Plugin",
+      "requires": {
+        "ports": [{
+          "in": 5000,
+          "out": 4500
+        }]
+      }
    }
 ]
