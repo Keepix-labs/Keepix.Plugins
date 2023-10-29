@@ -4,6 +4,7 @@
       "repositoryUrl": "https://github.com/Keepix-labs/Plugin.example",
       "title": "Example Plugin",
       "description": "A plugin of test.",
+      "icon": "bi:plugin",
       "requires": {
         "ports": [{
           "in": 5000,
@@ -16,6 +17,7 @@
       "repositoryUrl": "https://github.com/Keepix-labs/Keepix.EvmPlugin",
       "title": "Keepix Evm Plugin",
       "description": "Evm Plugin",
+      "icon": "cryptocurrency:eth",
       "requires": {
         "ports": [{
           "in": 5000,
