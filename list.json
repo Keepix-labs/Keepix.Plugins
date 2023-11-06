@@ -13,10 +13,10 @@
       }
    },
    {
-      "id": "Keepix.EvmPlugin",
-      "repositoryUrl": "https://github.com/Keepix-labs/Keepix.EvmPlugin",
-      "title": "Keepix Evm Plugin",
-      "description": "Evm Plugin",
+      "id": "Keepix.SmartNodePlugin",
+      "repositoryUrl": "https://github.com/Keepix-labs/Keepix.SmartNodePlugin",
+      "title": "Keepix Rocket Pool Smart Node",
+      "description": "Smart Node Plugin Rocket Pool",
       "icon": "cryptocurrency:eth",
       "requires": {
         "ports": [{
