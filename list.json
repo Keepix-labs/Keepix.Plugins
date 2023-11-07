@@ -22,8 +22,8 @@
       "platforms": ["linux-arm64", "linux-x64"],
       "requires": {
         "ports": [{
-          "in": 5000,
-          "out": 4500
+          "in": 30303,
+          "out": 30303
         }]
       }
    }
