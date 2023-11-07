@@ -19,7 +19,7 @@
       "title": "Keepix Rocket Pool Smart Node",
       "description": "Smart Node Plugin Rocket Pool",
       "icon": "cryptocurrency:eth",
-      "platforms": ["linux-arm64", "linux-x64"]
+      "platforms": ["linux-arm64", "linux-x64"],
       "requires": {
         "ports": [{
           "in": 5000,
