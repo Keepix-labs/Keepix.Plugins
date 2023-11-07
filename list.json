@@ -5,6 +5,7 @@
       "title": "Example Plugin",
       "description": "A plugin of test.",
       "icon": "bi:plugin",
+      "platforms": ["linux-arm64", "linux-x64", "osx-arm64", "osx-x64", "win-arm64", "win-x64"],
       "requires": {
         "ports": [{
           "in": 5000,
@@ -18,6 +19,7 @@
       "title": "Keepix Rocket Pool Smart Node",
       "description": "Smart Node Plugin Rocket Pool",
       "icon": "cryptocurrency:eth",
+      "platforms": ["linux-arm64", "linux-x64"]
       "requires": {
         "ports": [{
           "in": 5000,
