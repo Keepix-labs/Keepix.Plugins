@@ -1,25 +1,12 @@
 [
    {
-      "id": "plugin.example",
-      "repositoryUrl": "https://github.com/Keepix-labs/Plugin.example",
-      "title": "Example Plugin",
-      "description": "A plugin of test.",
-      "icon": "bi:plugin",
-      "platforms": ["linux-arm64", "linux-x64", "osx-arm64", "osx-x64", "win-arm64", "win-x64"],
-      "requires": {
-        "ports": [{
-          "in": 5000,
-          "out": 4500
-        }]
-      }
-   },
-   {
       "id": "Keepix.SmartNodePlugin",
       "repositoryUrl": "https://github.com/Keepix-labs/Keepix.SmartNodePlugin",
+      "packageName": "keepix-plugin-smart-node-build",
       "title": "Keepix Rocket Pool Smart Node",
       "description": "Smart Node Plugin Rocket Pool",
       "icon": "cryptocurrency:eth",
-      "platforms": ["linux-arm64", "linux-x64"],
+      "platforms": ["linux-arm64", "linux-x64", "win-x64", "win-arm64", "oxs-x64", "oxs-arm64"],
       "requires": {
         "ports": [{
           "in": 30303,
