@@ -13,9 +13,12 @@
           "out": 30303
         }],
         "install-form": {
-           "WalletPrivateKey": "wallet|ethereum:null",
-           "EnableMEV": "boolean:false",
-           "Mainnet": "boolean:false"
+           "inputs": {
+              "WalletPrivateKey": "wallet|ethereum:null",
+              "EnableMEV": "boolean:false",
+              "Mainnet": "boolean:false"
+           },
+           "description": "Please select fill the form before install the plugin."
         }
       }
    }
