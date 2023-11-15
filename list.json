@@ -19,7 +19,8 @@
                  "type": "wallet",
                  "walletType": "ethereum",
                  "walletKey": "privateKey",
-                 "label": "Select a Ethereum Wallet."
+                 "label": "Select a Ethereum Wallet.",
+                 "labelIfEmptyWalletList": "Please go on wallets page and create or import an Ethereum Wallet."
               },
               {
                  "key": "EnableMEV",
