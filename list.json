@@ -12,7 +12,7 @@
           "in": 30303,
           "out": 30303
         }],
-        "install-form": {
+        "installForm": {
            "inputs": {
               "WalletPrivateKey": "wallet|ethereum:null",
               "EnableMEV": "boolean:false",
