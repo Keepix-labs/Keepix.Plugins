@@ -18,6 +18,7 @@
                  "key": "WalletPrivateKey",
                  "type": "wallet",
                  "walletType": "ethereum",
+                 "walletKey": "privateKey",
                  "label": "Select a Ethereum Wallet."
               },
               {
