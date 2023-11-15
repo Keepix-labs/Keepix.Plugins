@@ -13,11 +13,30 @@
           "out": 30303
         }],
         "installForm": {
-           "inputs": {
-              "WalletPrivateKey": "wallet|ethereum:null",
-              "EnableMEV": "boolean:false",
-              "Mainnet": "boolean:false"
-           },
+           "inputs": [
+              {
+                 "key": "WalletPrivateKey",
+                 "type": "wallet",
+                 "walletType": "ethereum",
+                 "label": "Select a Ethereum Wallet."
+              },
+              {
+                 "key": "EnableMEV",
+                 "type": "checkbox-2",
+                 "true": "Yes",
+                 "false": "No",
+                 "defaultValue": true,
+                 "label": "Enable MEV Boost"
+              },
+              {
+                 "key": "Mainnet",
+                 "type": "checkbox-2",
+                 "true": "Mainnet",
+                 "false": "Testnet",
+                 "defaultValue": true,
+                 "label": "Mainnet or Testnet"
+              }
+           ],
            "description": "Please select fill the form before install the plugin."
         }
       }
