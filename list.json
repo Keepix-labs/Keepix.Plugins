@@ -37,6 +37,14 @@
                  "false": "Testnet",
                  "defaultValue": true,
                  "label": "Mainnet or Testnet"
+              },
+              {
+                 "key": "AutoStart",
+                 "type": "checkbox-2",
+                 "true": "Yes",
+                 "false": "No",
+                 "defaultValue": true,
+                 "label": "Auto Start"
               }
            ],
            "description": "Please select fill the form before install the plugin."
