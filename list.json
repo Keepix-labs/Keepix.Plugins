@@ -41,6 +41,7 @@
                  "type": "wallet",
                  "walletType": "ethereum",
                  "walletKey": "mnemonic",
+                 "filter": "wallet.asMnemonic === true",
                  "label": "Select a Ethereum Wallet.",
                  "labelIfEmptyWalletList": "Please go on wallets page and create or import (with mnemomic) an Ethereum Wallet."
               },
