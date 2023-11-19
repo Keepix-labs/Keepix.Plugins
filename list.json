@@ -32,6 +32,24 @@
                "external": 9001,
                "protocol": "UDP",
                "description": "keepix-upnp-eth2-udp"
+           },
+           {
+               "internal": 8545,
+               "external": 8545,
+               "protocol": "TCP",
+               "description": "keepix-upnp-nethermind-rpc-tcp"
+           },
+           {
+               "internal": 8551,
+               "external": 8551,
+               "protocol": "TCP",
+               "description": "keepix-upnp-nethermind-rpc2-tcp"
+           },
+           {
+               "internal": 18550,
+               "external": 18550,
+               "protocol": "TCP",
+               "description": "keepix-upnp-mev-boost-tcp"
            }
         ],
         "installForm": {
