@@ -37,12 +37,12 @@
         "installForm": {
            "inputs": [
               {
-                 "key": "WalletPrivateKey",
+                 "key": "WalletMnemonic",
                  "type": "wallet",
                  "walletType": "ethereum",
-                 "walletKey": "privateKey",
+                 "walletKey": "mnemonic",
                  "label": "Select a Ethereum Wallet.",
-                 "labelIfEmptyWalletList": "Please go on wallets page and create or import an Ethereum Wallet."
+                 "labelIfEmptyWalletList": "Please go on wallets page and create or import (with mnemomic) an Ethereum Wallet."
               },
               {
                  "key": "EnableMEV",
