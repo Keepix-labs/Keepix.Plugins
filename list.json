@@ -76,7 +76,7 @@
                  "label": "Auto Start"
               },
               {
-                 "key": "ClientCombo",
+                 "key": "UseDefaultClient",
                  "type": "checkbox-2",
                  "true": "Nethermind-Nimbus",
                  "false": "Bezu-Lodestar",
