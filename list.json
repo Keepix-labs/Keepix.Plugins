@@ -74,6 +74,14 @@
                  "false": "No",
                  "defaultValue": true,
                  "label": "Auto Start"
+              },
+              {
+                 "key": "ClientType",
+                 "type": "checkbox-2",
+                 "true": "Nethermind-Nimbus",
+                 "false": "Bezu-Lodestar",
+                 "defaultValue": true,
+                 "label": "Ethereum Client Combo"
               }
            ],
            "description": "Please select fill the form before install the plugin."
