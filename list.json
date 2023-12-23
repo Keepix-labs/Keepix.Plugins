@@ -4,7 +4,7 @@
       "repositoryUrl": "https://github.com/Keepix-labs/Keepix.SmartNodePlugin",
       "packageName": "keepix-plugin-smart-node-build",
       "title": "Ethereum Node - Rocket Pool Protocol",
-     "description": "The Ethereum - RocketPool Protocol Smart-Node plugin, designed by Keepix Labs, automates the management of a RocketPool smart node on the Ethereum network. Compatible with a range of platforms including Linux (ARM64, X64), Windows (X64, ARM64), and OSX (X64, ARM64), it simplifies complex configurations and optimizations. Features include integration with Ethereum wallets, MEV enable/disable option, and mainnet operation. Requires network port 30303 (inbound and outbound) for operation which is auto-managed on your network (using UPnP). An intuitive installation form ensures proper configuration and ease of use, making it a valuable tool for efficient Ethereum RocketPool smart node management.",
+      "description": "The Ethereum - RocketPool Protocol Smart-Node plugin, designed by Keepix Labs, automates the management of a RocketPool smart node on the Ethereum network. Compatible with a range of platforms including Linux (ARM64, X64), Windows (X64, ARM64), and OSX (X64, ARM64), it simplifies complex configurations and optimizations. Features include integration with Ethereum wallets, MEV enable/disable option, and mainnet operation. Requires network port 30303 (inbound and outbound) for operation which is auto-managed on your network (using UPnP). An intuitive installation form ensures proper configuration and ease of use, making it a valuable tool for efficient Ethereum RocketPool smart node management.",
       "icon": "cryptocurrency:eth",
       "platforms": ["linux-arm64", "linux-x64", "win-x64", "win-arm64", "oxs-x64", "oxs-arm64"],
       "requires": {
@@ -86,6 +86,29 @@
            ],
            "description": "Please select fill the form before install the plugin."
         }
+      }
+   },
+   {
+      "id": "Plugin.Tezos",
+      "repositoryUrl": "https://github.com/Keepix-labs/Plugin.Tezos",
+      "packageName": "keepix-plugin-tezos-build",
+      "title": "Tezos - XTZ Delagation",
+      "description": "The Tezos - XTZ Delegation plugin, designed by Keepix Labs, permit to anyone of delegate his XTZ coins for an APY return.",
+      "icon": "cryptocurrency:eth",
+      "platforms": ["linux-arm64", "linux-x64", "win-x64", "win-arm64", "oxs-x64", "oxs-arm64"],
+      "requires": {
+        "ports": []
+      },
+      "installForm": {
+         {
+            "key": "WalletSecretKey",
+            "type": "wallet",
+            "walletType": "tezos",
+            "walletKey": "secretKey",
+            "filter": "wallet.asSecretKey === true",
+            "label": "Select a Tezos Wallet.",
+            "labelIfEmptyWalletList": "Please go on wallets page and create or import (with secretKey) an Tezos Wallet."
+         }
       }
    }
 ]
