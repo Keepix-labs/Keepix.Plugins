@@ -104,8 +104,8 @@
                   "key": "WalletSecretKey",
                   "type": "wallet",
                   "walletType": "tezos",
-                  "walletKey": "secretKey",
-                  "filter": "wallet.asSecretKey === true",
+                  "walletKey": "privateKey",
+                  "filter": "wallet.asPrivateKey === true",
                   "label": "Select a Tezos Wallet.",
                   "labelIfEmptyWalletList": "Please go on wallets page and create or import (with secretKey) an Tezos Wallet."
                }
