@@ -97,17 +97,19 @@
       "icon": "cryptocurrency:eth",
       "platforms": ["linux-arm64", "linux-x64", "win-x64", "win-arm64", "oxs-x64", "oxs-arm64"],
       "requires": {
-        "ports": []
-      },
-      "installForm": {
-         {
-            "key": "WalletSecretKey",
-            "type": "wallet",
-            "walletType": "tezos",
-            "walletKey": "secretKey",
-            "filter": "wallet.asSecretKey === true",
-            "label": "Select a Tezos Wallet.",
-            "labelIfEmptyWalletList": "Please go on wallets page and create or import (with secretKey) an Tezos Wallet."
+        "ports": [],
+         "installForm": {
+           "inputs": [
+              {
+                  "key": "WalletSecretKey",
+                  "type": "wallet",
+                  "walletType": "tezos",
+                  "walletKey": "secretKey",
+                  "filter": "wallet.asSecretKey === true",
+                  "label": "Select a Tezos Wallet.",
+                  "labelIfEmptyWalletList": "Please go on wallets page and create or import (with secretKey) an Tezos Wallet."
+               }
+            ]
          }
       }
    }
