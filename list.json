@@ -94,7 +94,7 @@
       "packageName": "keepix-plugin-tezos-build",
       "title": "Tezos - XTZ Delagation",
       "description": "The Tezos - XTZ Delegation plugin, designed by Keepix Labs, permit to anyone of delegate his XTZ coins for an APY return.",
-      "icon": "cryptocurrency:eth",
+      "icon": "https://raw.githubusercontent.com/Keepix-labs/Keepix.tokens/main/icons/XTZ.png",
       "platforms": ["linux-arm64", "linux-x64", "win-x64", "win-arm64", "oxs-x64", "oxs-arm64"],
       "requires": {
         "ports": [],
