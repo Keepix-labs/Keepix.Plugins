@@ -112,5 +112,101 @@
             ]
          }
       }
+   },
+   {
+      "id": "KeepixPolygonPlugin",
+      "repositoryUrl": "https://github.com/unforkableco/KeepixPolygonPlugin",
+      "packageName": "keepix-polygon-plugin",
+      "title": "Polygon PoS Node",
+      "description": "The Polygon PoS plugin, designed by Keepix Labs, automates the management of a Polygon PoS node. Compatible with a range of platforms including Linux (ARM64, X64), Windows (X64, ARM64), and OSX (X64, ARM64), it simplifies complex configurations and optimizations. Features include delegate staking and mainnet operation. Requires network port 30303 (inbound and outbound) for operation which is auto-managed on your network (using UPnP). An intuitive installation form ensures proper configuration and ease of use, making it a valuable tool for efficient node management.",
+      "icon": "cryptocurrency:eth",
+      "platforms": ["linux-arm64", "linux-x64", "win-x64", "win-arm64", "oxs-x64", "oxs-arm64"],
+      "requires": {
+        "ports": [
+           {
+               "internal": 30303,
+               "external": 30303,
+               "protocol": "TCP",
+               "description": "keepix-upnp-erigon-tcp"
+           },
+           {
+               "internal": 30303,
+               "external": 30303,
+               "protocol": "UDP",
+               "description": "keepix-upnp-erigon-udp"
+           },
+           {
+               "internal": 30304,
+               "external": 30304,
+               "protocol": "TCP",
+               "description": "keepix-upnp-erigon-tcp2"
+           },
+           {
+               "internal": 30304,
+               "external": 30304,
+               "protocol": "UDP",
+               "description": "keepix-upnp-erigon-udp2"
+           },
+           {
+            "internal": 42069,
+            "external": 42069,
+            "protocol": "TCP",
+            "description": "keepix-erigon-snapshot-tcp"
+           },
+           {
+            "internal": 42069,
+            "external": 42069,
+            "protocol": "UDP",
+            "description": "keepix-erigon-snapshot-udp"
+           },
+           {
+               "internal": 26656,
+               "external": 26656,
+               "protocol": "TCP",
+               "description": "keepix-heimdall-p2p-tcp"
+           },
+           {
+               "internal": 26656,
+               "external": 26656,
+               "protocol": "UDP",
+               "description": "keepix-heimdall-p2p-udp"
+           }
+        ],
+        "installForm": {
+           "inputs": [
+              {
+                 "key": "mnemonic",
+                 "type": "wallet",
+                 "walletType": "ethereum",
+                 "walletKey": "mnemonic",
+                 "filter": "wallet.asMnemonic === true",
+                 "label": "Select a Polygon Wallet.",
+                 "labelIfEmptyWalletList": "Please go on wallets page and create or import (with mnemomic) a Polygon Wallet."
+              },
+              {
+                 "key": "testnet",
+                 "type": "checkbox-2",
+                 "true": "true",
+                 "false": "false",
+                 "defaultValue": false,
+                 "label": "Mainnet or Testnet (mumbai)"
+              },
+              {
+                 "key": "ethereumRPC",
+                 "type": "string",
+                 "label": "Ethereum mainnet rpc (optional)"
+              },
+              {
+                 "key": "autostart",
+                 "type": "checkbox-2",
+                 "true": "true",
+                 "false": "false",
+                 "defaultValue": true,
+                 "label": "Auto Start"
+              }
+           ],
+           "description": "Please select fill the form before install the plugin."
+        }
+      }
    }
 ]
