@@ -195,6 +195,14 @@
                  "key": "ethereumRPC",
                  "type": "string",
                  "label": "Ethereum mainnet rpc (optional)"
+              },
+              {
+                 "key": "autostart",
+                 "type": "checkbox-2",
+                 "true": "true",
+                 "false": "false",
+                 "defaultValue": true,
+                 "label": "Auto Start"
               }
            ],
            "description": "Please select fill the form before install the plugin."
